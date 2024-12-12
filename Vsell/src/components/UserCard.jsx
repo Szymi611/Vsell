@@ -60,7 +60,7 @@ const UserCard = () => {
           </div>
 
           {/* Swap Button */}
-          <div className="mt-4 px-4 py-2 flex-col bg-blue-500 text-white rounded-md w-auto">
+          <div className="mt-4 px-4 py-2 flex-col bg-blue-500 hover:bg-blue-700 text-white rounded-md w-auto">
             <button onClick={handleClick}>Swap</button>
           </div>
         </>
@@ -107,7 +107,7 @@ const UserCard = () => {
           </div>
 
           {/* Swap Button */}
-          <div className="mt-4 px-4 py-2 flex-col bg-blue-500 text-white rounded-md w-auto">
+          <div className="mt-4 px-4 py-2 flex-col bg-blue-500 hover:bg-blue-700 text-white rounded-md w-auto">
             <button onClick={handleClick}>Swap</button>
           </div>
         </>
