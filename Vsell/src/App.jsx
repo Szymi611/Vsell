@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import UserCard from './components/UserCard'
-import Swap from './components/Swap'
+import "./App.css";
+import UserCard from "./components/UserCard";
+import Swap from "./components/Swap";
+import "./index.css";
 
 function App() {
-
-
   return (
-    <>
+    <div className="flex justify-center items-center py-20 flex-col">
       <UserCard />
       {/* <Swap /> */}
-    </>
-  )
+
+
+
+    </div>
+  );
 }
 
-export default App
+export default App;
